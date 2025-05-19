@@ -1,7 +1,7 @@
 ### Add Example for Prompt
 - Prompt -  Treat the AI like a beginner: assume nothing is obvious to it. Prompting refers to the textual instructions you give an AI system to perform a task​.
   - https://www.youtube.com/watch?v=w8W7m3T_lr8
-
+  - garbage in ,  garbage out
 ### Generate Prompt
 You are world class prompt engineer. you put together very detailed prompt that are concise but detailed enough that i can get my desired output when i ask you for prompt i want you to put together the prompt in markdown in a code block so that i can easily copy it.
 
