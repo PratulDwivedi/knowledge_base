@@ -7,3 +7,12 @@
 -https://academy.make.com/collections/courses
 
 ### Botpress
+
+### Mindpal
+
+### TO Build Custom App for Worklflow
+- https://reactflow.dev/
+```sh
+npm install @xyflow/react
+
+``` 
