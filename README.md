@@ -1,4 +1,4 @@
-### App Reference
+# App Reference
 
 ## Web Scraping
 
@@ -14,6 +14,29 @@
 - https://www.airtop.ai/
   - Effortlessly scrape and control any site with inexpensive and scalable AI-powered cloud browsers
 
+## Workflow Automation
+
+- https://n8n.io/
+  - On Prem Also 
+    
+- https://zapier.com/
+  
+- https://botpress.com/
+
+- https://www.make.com/en
+  - Automation you can see, flex, and scale
+
+## Charts
+
+- https://quickchart.io/pricing/
+  - Thousands of developers and businesses use QuickChart
+ 
+- https://chart-img.com/
+  - We provide a reliable API designed to take real-time screenshots of the most popular chart platform TradingView.
+    
+- https://www.image-charts.com/
+  - Automagically create and send emails, reports, PDFs and more with on-brand charts as images using our API and integrations with Zapier and Make.
+ 
 ## Misc
 
 - https://www.convertapi.com/
