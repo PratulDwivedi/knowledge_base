@@ -1,5 +1,11 @@
 # App Reference
 
+## Vibe Coding
+  - https://lovable.dev
+  - https://bolt.new
+  - https://studio.firebase.google.com
+  - https://aurachat.io
+  - 
 ## Web Scraping
 
 - https://apify.com/
@@ -44,3 +50,6 @@
 
 - https://docs.perplexity.ai/
   - Power your products with unparalleled real-time, web-wide research and Q&A capabilities.
+ 
+## Cloud Platform for hosting
+ - https://elest.io/
