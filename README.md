@@ -60,6 +60,7 @@ When Microsoft invested billions into OpenAI, they didn’t just buy equity — 
 
 - https://www.convertapi.com/
   - High-Performance File Conversion API
+- https://calendly.com
 
 - https://docs.perplexity.ai/
   - Power your products with unparalleled real-time, web-wide research and Q&A capabilities.
