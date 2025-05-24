@@ -1,5 +1,10 @@
 # App Reference
 
+## AI Phone and Receptionist 
+  - https://app.getbreezy.app/home
+    - answers calls and texts, delights customers, and manages your relationships automatically.
+   
+      
 ## Vibe Coding
   - https://lovable.dev
   - https://bolt.new
