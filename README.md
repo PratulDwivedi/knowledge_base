@@ -65,6 +65,10 @@ When Microsoft invested billions into OpenAI, they didn’t just buy equity — 
 
 - https://docs.perplexity.ai/
   - Power your products with unparalleled real-time, web-wide research and Q&A capabilities.
- 
+
+## Content Creation
+  ### Video
+    - https://creatify.ai/
+      - AI-powered Video Ads
 ## Cloud Platform for hosting
  - https://elest.io/
