@@ -1,5 +1,12 @@
 # App Reference
 
+"AI-powered” is the new “.com.” Startups pitch wrappers
+LLM wrapper. It’s not a product.
+OpenAI owns the tech, but not the user. 
+NVIDIA: The Silent Kingmaker
+
+When Microsoft invested billions into OpenAI, they didn’t just buy equity — they bought control. As OpenAI’s exclusive cloud provider, Microsoft now sits underneath every LLM wrapper that uses GPT
+
 ## AI Phone and Receptionist 
   - https://app.getbreezy.app/home
     - answers calls and texts, delights customers, and manages your relationships automatically.
