@@ -67,8 +67,10 @@ When Microsoft invested billions into OpenAI, they didn’t just buy equity — 
   - Power your products with unparalleled real-time, web-wide research and Q&A capabilities.
 
 ## Content Creation
-  ### Video
-    - https://creatify.ai/
-      - AI-powered Video Ads
+### Video
+  - https://creatify.ai/
+    - AI-powered Video Ads
+  - https://artistly.ai
+    - Produce Stunning Images, Logos & Art With Just A Keyword Using AI
 ## Cloud Platform for hosting
  - https://elest.io/
