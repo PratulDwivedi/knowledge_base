@@ -5,6 +5,7 @@
   - https://bolt.new
   - https://studio.firebase.google.com
   - https://aurachat.io
+    - Generate designs in seconds and export to HTML or Figma.
   - 
 ## Web Scraping
 
