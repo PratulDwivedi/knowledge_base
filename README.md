@@ -14,6 +14,7 @@ When Microsoft invested billions into OpenAI, they didn’t just buy equity — 
       
 ## Vibe Coding
   - https://lovable.dev
+  - https://www.hostinger.com/in
   - https://bolt.new
   - https://studio.firebase.google.com
   - https://aurachat.io
