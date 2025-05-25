@@ -10,6 +10,10 @@ When Microsoft invested billions into OpenAI, they didn’t just buy equity — 
 ## AI Phone and Receptionist 
   - https://app.getbreezy.app/home
     - answers calls and texts, delights customers, and manages your relationships automatically.
+  - https://voicegenie.ai
+    -  While Vapi AI offers a product in the same category as ours, is it truly as impressive as it claims to be?
+  -  https://sendbird.com/
+  -  https://vapi.ai/
    
       
 ## Vibe Coding
