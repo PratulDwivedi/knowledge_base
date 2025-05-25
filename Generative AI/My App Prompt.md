@@ -96,7 +96,11 @@ src/
   - Main content adjusts with sidebar state
 
 ---
+## Naming Convention
 
+- All property/ fields/variable / field id/ field name/ must be snake_case not camelCase of ProperCase. 
+- All servcies must have abstract/interface class to take care and
+- 
 ## 🌟 Optional Enhancements
 
 - ✅ Multi-Tenant Theming: Allow branding overrides per tenant
