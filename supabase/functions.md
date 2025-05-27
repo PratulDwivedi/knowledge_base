@@ -1,5 +1,37 @@
 ## Simulate Supabase auth for testing and allow to have on-prem postgres
+```sql
+SELECT to_jsonb(auth.jwt());
 
+{
+    "aal": "aal1",
+    "amr": [
+        {
+            "method": "password",
+            "timestamp": 1748326412
+        }
+    ],
+    "aud": "authenticated",
+    "exp": 1748345170,
+    "iat": 1748341570,
+    "iss": "https://tpgyuqvncljnuyrohqre.supabase.co/auth/v1",
+    "sub": "4657c4e0-2357-4679-b802-061989d64df3",
+    "role": "authenticated",
+    "email": "demo@gmail.com",
+    "phone": "",
+    "session_id": "0c5ab9d1-d6ad-41bb-ad50-a77c6693c4d1",
+    "app_metadata": {
+        "provider": "email",
+        "providers": [
+            "email"
+        ]
+    },
+    "is_anonymous": false,
+    "user_metadata": {
+        "email_verified": true
+    }
+}
+
+```
 ```sql
 CREATE OR REPLACE FUNCTION public.request_context()
 RETURNS TABLE(tenant_id integer, user_id integer, caller_id integer)
@@ -8,7 +40,11 @@ AS $$
 DECLARE
   v_user_id uuid;
 BEGIN
-  v_user_id := current_setting('request.jwt.claim.sub', true)::uuid;
+  -- Fetch user id from incoming jwt
+  -- select (auth.jwt() ->> 'sub')::text into v_user_id;
+
+ select auth.uid() into v_user_id;
+  
 
   RETURN QUERY
   SELECT
