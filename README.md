@@ -78,3 +78,7 @@ When Microsoft invested billions into OpenAI, they didn’t just buy equity — 
     - Produce Stunning Images, Logos & Art With Just A Keyword Using AI
 ## Cloud Platform for hosting
  - https://elest.io/
+
+## App Icon Maker
+- https://icon.kitchen/
+
