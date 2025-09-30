@@ -26,6 +26,11 @@ The ability to process natural language in written or spoken form, analyze it, i
 ### *Information extraction* - 
 The ability to use computer vision, speech, and natural language processing to extract key information from documents, forms, images, recordings, and other kinds of content. For example, an automated expense claims processing application might extract purchase dates, individual line item details, and total costs from a scanned receipt
 
+### *Decision support* - 
+The ability to use historic data and learned correlations to make predictions that support business decision making. For example, analyzing demographic and economic factors in a city to predict real estate market trends that inform property pricing decisions.
+
+ 
+
 ## Responsible AI
 When the application is imbued with artificial intelligence, these considerations are particularly important due to the nature of how AI systems work and inform decisions; often based on probabilistic models, which are in turn dependent on the data with which they were trained.
 
@@ -46,10 +51,3 @@ AI systems should be understandable. Users should be made fully aware of the pur
 
 ### Accountability
 People should be accountable for AI systems. Although many AI systems seem to operate autonomously, ultimately it's the responsibility of the developers who trained and validated the models they use, and defined the logic that bases decisions on model predictions to ensure that the overall system meets responsibility requirements.
-
-
-
-### *Decision support* - 
-The ability to use historic data and learned correlations to make predictions that support business decision making. For example, analyzing demographic and economic factors in a city to predict real estate market trends that inform property pricing decisions.
-
- 
