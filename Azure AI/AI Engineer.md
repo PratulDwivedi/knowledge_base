@@ -51,3 +51,33 @@ AI systems should be understandable. Users should be made fully aware of the pur
 
 ### Accountability
 People should be accountable for AI systems. Although many AI systems seem to operate autonomously, ultimately it's the responsibility of the developers who trained and validated the models they use, and defined the logic that bases decisions on model predictions to ensure that the overall system meets responsibility requirements.
+
+
+# Module Assesment
+### Which Azure resource provides language and vision services from a single endpoint?
+ a. Azure AI Language
+ b. Azure AI Vision
+ c. Azure AI Services (Correct)
+
+### You plan to create a simple chat app that uses a generative AI model. What kind of project should you create?
+
+a. Azure AI Foundry project ( Correct )
+b. Azure AI hub based project.
+c. Azure AI Custom Vision project.
+
+#### Which SDK enables you to connect to resources in a project?
+ a. Azure AI Services SDK
+ b. Semantic Kernel SDK
+ c. Azure AI Foundry SDK ( Correct )
+
+
+
+
+# Clean up
+If you’ve finished exploring Azure AI Foundry portal, you should delete the resources you have created in this exercise to avoid incurring unnecessary Azure costs.
+
+1. In the Azure portal at https://portal.azure.com, view the contents of the resource group where you deployed the resources used in this exercise.
+2. On the toolbar, select Delete resource group.
+3. Enter the resource group name and confirm that you want to delete it.
+
+   
