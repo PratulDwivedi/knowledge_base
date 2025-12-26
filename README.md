@@ -82,3 +82,7 @@ When Microsoft invested billions into OpenAI, they didn’t just buy equity — 
 ## App Icon Maker
 - https://icon.kitchen/
 
+## Free SSL on Windows Server
+- https://certifytheweb.com/
+  
+
