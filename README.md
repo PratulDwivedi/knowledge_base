@@ -7,6 +7,9 @@ NVIDIA: The Silent Kingmaker
 
 When Microsoft invested billions into OpenAI, they didn’t just buy equity — they bought control. As OpenAI’s exclusive cloud provider, Microsoft now sits underneath every LLM wrapper that uses GPT
 
+## AI Tools And App
+  - https://docs.openwebui.com
+    
 ## AI Phone and Receptionist 
   - https://app.getbreezy.app/home
     - answers calls and texts, delights customers, and manages your relationships automatically.
@@ -78,6 +81,8 @@ When Microsoft invested billions into OpenAI, they didn’t just buy equity — 
     - Produce Stunning Images, Logos & Art With Just A Keyword Using AI
 ## Cloud Platform for hosting
  - https://elest.io/
+ - https://aspnetcore.net
+ - https://vercel.com
 
 ## App Icon Maker
 - https://icon.kitchen/
