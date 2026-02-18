@@ -4,35 +4,97 @@
 
 ### 1. What is the difference between AI, Machine Learning, and Deep Learning?
 
-AI is the broad concept of intelligent machines. ML is a subset where systems learn from data. Deep Learning is a subset of ML using neural networks with multiple layers. The hierarchy shows increasing specialization: all deep learning is ML, all ML is AI, but not all AI uses learning. AI includes rule-based systems, ML includes statistical learning, and deep learning excels at automatically extracting hierarchical features from raw data like images and text. Solution architects must understand these distinctions to recommend appropriate approaches for business problems, balancing complexity, data requirements, and interpretability needs.
+AI is the broad concept of intelligent machines. ML is a subset where systems learn from data. Deep Learning is a subset of ML using neural networks with multiple layers. 
+
+The hierarchy shows increasing specialization: 
+
+  - all deep learning is ML, all ML is AI, but not all AI uses learning.
+  - AI includes rule-based systems, ML includes statistical learning, and deep learning excels at automatically extracting hierarchical features from raw data like images and text.
 
 ### 2. Explain supervised vs unsupervised vs reinforcement learning.
 
-Supervised learning trains on labeled data mapping inputs to known outputs, used for classification and regression (spam detection, price prediction). Unsupervised learning finds patterns in unlabeled data through clustering, dimensionality reduction, or association rules (customer segmentation, anomaly detection). Reinforcement learning trains agents to make sequential decisions by maximizing rewards through environment interaction (game playing, robotics, recommendation systems). Each suits different scenarios: supervised when labeled data exists, unsupervised for exploration or when labeling is expensive, reinforcement for sequential decision-making where outcomes emerge over time. Modern systems often combine these approaches—for instance, pre-training language models with unsupervised learning then fine-tuning with supervised learning.
+- Supervised learning trains on labeled data mapping inputs to known outputs, used for classification and regression (spam detection, price prediction). 
+- Unsupervised learning finds patterns in unlabeled data through clustering, dimensionality reduction, or association rules (customer segmentation, anomaly detection).
+- Reinforcement learning trains agents to make sequential decisions by maximizing rewards through environment interaction (game playing, robotics, recommendation systems).
+
+Each suits different scenarios: 
+  - supervised when labeled data exists,
+  - unsupervised for exploration or when labeling is expensive,
+  - reinforcement for sequential decision-making where outcomes emerge over time.
+  
+Modern systems often combine these approaches—for instance, pre-training language models with unsupervised learning then fine-tuning with supervised learning.
 
 ### 3. What are neural networks and how do they work?
 
-Neural networks are computational models with interconnected layers of neurons that learn to map inputs to outputs through training. An input layer receives data, hidden layers extract increasingly abstract features through weighted connections and non-linear activations, and an output layer produces predictions. Learning happens via backpropagation: forward pass computes predictions, loss function measures error, backward pass calculates gradients showing how each weight affects error, and optimization updates weights to reduce error. The power comes from universal approximation capability and automatic feature learning. Different architectures suit different data: CNNs for images, RNNs/Transformers for sequences, enabling applications from computer vision to natural language processing.
+Neural networks are computational models with interconnected layers of neurons that learn to map inputs to outputs through training. An input layer receives data, hidden layers extract increasingly abstract features through weighted connections and non-linear activations, and an output layer produces predictions. 
+
+Learning happens via backpropagation:
+
+  - forward pass computes predictions,
+  - loss function measures error,
+  - backward pass calculates gradients showing how each weight affects error,
+  - and optimization updates weights to reduce error.
+
+The power comes from universal approximation capability and automatic feature learning. 
+
+Different architectures suit different data: 
+
+  - CNNs for images,
+  - RNNs/Transformers for sequences, enabling applications from computer vision to natural language processing.
 
 ### 4. Explain overfitting and underfitting with prevention strategies.
 
-Overfitting occurs when models learn training data too well including noise, achieving high training accuracy but poor test performance. Underfitting happens when models are too simple to capture underlying patterns, performing poorly on both training and test data. Prevention strategies for overfitting include: increasing training data, applying regularization (L1/L2, dropout), reducing model complexity, using cross-validation, implementing early stopping, and data augmentation. For underfitting: use more complex models, add relevant features, reduce excessive regularization, and train longer. The goal is balancing model capacity with data size—enough complexity to capture patterns but not so much that it memorizes noise. Monitoring learning curves (training vs validation loss) helps diagnose which problem you face.
+  - Overfitting occurs when models learn training data too well including noise, achieving high training accuracy but poor test performance.
+  - Underfitting happens when models are too simple to capture underlying patterns, performing poorly on both training and test data.
+
+Prevention strategies for overfitting include:
+
+  - increasing training data,
+  - applying regularization (L1/L2, dropout),
+  - reducing model complexity,
+  - using cross-validation,
+  - implementing early stopping,
+  - and data augmentation.
+
+For underfitting: 
+
+  - use more complex models,
+  - add relevant features,
+  - reduce excessive regularization, and train longer.
+
+The goal is balancing model capacity with data size—enough complexity to capture patterns but not so much that it memorizes noise. Monitoring learning curves (training vs validation loss) helps diagnose which problem you face.
 
 ### 5. What is transfer learning and why is it important?
 
-Transfer learning reuses knowledge from models trained on large datasets for new related tasks, dramatically reducing data and compute requirements. Pre-trained models learn general features (edges, textures in vision; grammar in language) applicable across tasks, with task-specific features in later layers. Implementation involves feature extraction (freezing pre-trained layers, training only new layers) or fine-tuning (continuing training with small learning rates). This is crucial because training from scratch requires millions of examples and weeks of GPU time, while transfer learning achieves strong performance with hundreds to thousands of examples in hours. Examples include using BERT for NLP tasks, ResNet for image classification, enabling organizations without massive resources to build production AI systems effectively.
+Transfer learning reuses knowledge from models trained on large datasets for new related tasks, dramatically reducing data and compute requirements. Pre-trained models learn general features (edges, textures in vision; grammar in language) applicable across tasks, with task-specific features in later layers. Implementation involves feature extraction (freezing pre-trained layers, training only new layers) or fine-tuning (continuing training with small learning rates). This is crucial because training from scratch requires millions of examples and weeks of GPU time, while transfer learning achieves strong performance with hundreds to thousands of examples in hours. 
+
+Examples include using BERT for NLP tasks, ResNet for image classification, enabling organizations without massive resources to build production AI systems effectively.
 
 ### 6. Describe the bias-variance tradeoff.
 
-The bias-variance tradeoff balances two error sources: bias from oversimplification (underfitting) and variance from oversensitivity to training data (overfitting). High-bias models make strong assumptions missing true patterns; high-variance models fit noise. Total error = bias² + variance + irreducible error. Reducing bias (more complexity) increases variance; reducing variance (more constraints) increases bias. The goal is finding optimal complexity minimizing total error, typically shown as a U-curve. Strategies include cross-validation to estimate both components, regularization controlling variance, ensemble methods (bagging reduces variance, boosting reduces bias), and learning curves diagnosing whether more data or different complexity helps. Understanding this helps architects balance model sophistication with generalization for production systems.
+The bias-variance tradeoff balances two error sources: 
+
+  - bias from oversimplification (underfitting) and variance from oversensitivity to training data (overfitting).
+  - High-bias models make strong assumptions missing true patterns; high-variance models fit noise.
+  - Total error = bias² + variance + irreducible error.
+  - Reducing bias (more complexity) increases variance; reducing variance (more constraints) increases bias.
+  - The goal is finding optimal complexity minimizing total error, typically shown as a U-curve.
+  - Strategies include cross-validation to estimate both components, regularization controlling variance, ensemble methods (bagging reduces variance, boosting reduces bias), and learning curves diagnosing whether more data or different complexity helps.
+  - Understanding this helps architects balance model sophistication with generalization for production systems.
 
 ### 7. What are CNNs and their applications?
 
-Convolutional Neural Networks specialize in processing grid-structured data, especially images. They use convolutional layers applying learnable filters to detect features like edges and textures, pooling layers downsampling to reduce dimensions while retaining important information, and fully connected layers for final classification. Key properties include local connectivity (neurons connect to local regions), parameter sharing (same filter across image), and translation invariance (detecting features regardless of position). Applications include image classification, object detection, semantic segmentation, face recognition, medical image analysis, and autonomous vehicle vision. Popular architectures include ResNet for very deep networks, EfficientNet for efficiency, and Vision Transformers for attention-based processing. CNNs revolutionized computer vision, achieving superhuman performance in many visual tasks.
+Convolutional Neural Networks specialize in processing grid-structured data, especially images. They use convolutional layers applying learnable filters to detect features like edges and textures, pooling layers downsampling to reduce dimensions while retaining important information, and fully connected layers for final classification. Key properties include local connectivity (neurons connect to local regions), parameter sharing (same filter across image), and translation invariance (detecting features regardless of position). 
+
+Applications include image classification, object detection, semantic segmentation, face recognition, medical image analysis, and autonomous vehicle vision. Popular architectures include ResNet for very deep networks, EfficientNet for efficiency, and Vision Transformers for attention-based processing. CNNs revolutionized computer vision, achieving superhuman performance in many visual tasks.
 
 ### 8. Explain RNNs and their limitations.
 
-Recurrent Neural Networks process sequential data by maintaining internal state capturing information from previous time steps. At each step, they take current input and previous hidden state to compute new state and output, enabling context-aware processing. Applications include language modeling, machine translation, speech recognition, and time series forecasting. However, standard RNNs suffer from vanishing/exploding gradients preventing learning of long-term dependencies, difficulty capturing relationships beyond 5-10 steps, and sequential processing preventing parallelization. Solutions include LSTM/GRU architectures with gating mechanisms controlling information flow, gradient clipping for exploding gradients, and proper initialization. Modern Transformers largely replaced RNNs for sequence tasks due to better long-range dependency modeling and parallel processing enabling faster training on large datasets.
+Recurrent Neural Networks process sequential data by maintaining internal state capturing information from previous time steps. At each step, they take current input and previous hidden state to compute new state and output, enabling context-aware processing. 
+
+Applications include language modeling, machine translation, speech recognition, and time series forecasting. However, standard RNNs suffer from vanishing/exploding gradients preventing learning of long-term dependencies, difficulty capturing relationships beyond 5-10 steps, and sequential processing preventing parallelization. Solutions include LSTM/GRU architectures with gating mechanisms controlling information flow, gradient clipping for exploding gradients, and proper initialization. 
+
+Modern Transformers largely replaced RNNs for sequence tasks due to better long-range dependency modeling and parallel processing enabling faster training on large datasets.
 
 ### 9. What is the Transformer architecture?
 
