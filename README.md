@@ -72,6 +72,8 @@ When Microsoft invested billions into OpenAI, they didn’t just buy equity — 
 
 - https://docs.perplexity.ai/
   - Power your products with unparalleled real-time, web-wide research and Q&A capabilities.
+- https://21st.dev/community/themes
+- https://excalidraw.com/
 
 ## Content Creation
 ### Video
