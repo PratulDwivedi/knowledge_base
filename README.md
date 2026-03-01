@@ -89,5 +89,20 @@ When Microsoft invested billions into OpenAI, they didn’t just buy equity — 
 
 ## Free SSL on Windows Server
 - https://certifytheweb.com/
+
+## AI Learning
+  - The only video you need to Master N8N + AI agents (For complete beginners)
+    https://www.youtube.com/watch?v=uScURRX-Knc
+  - CLAUDE CODE FULL COURSE 4 HOURS: Build & Sell (2026)
+     https://www.youtube.com/watch?v=QoQBzR1NIqI
+  - AGENTIC WORKFLOWS 6 HOUR COURSE: Beginner to Pro (2026)
+     https://www.youtube.com/watch?v=MxyRjL7NG18
+  - N8N FULL COURSE 6 HOURS (Build & Sell AI Automations + Agents)
+     https://www.youtube.com/watch?v=2GZ2SNXWK-c
+  - Gemini + Antigravity Full Course: Zero to Vibe Coder (+6 Hrs)
+    https://www.youtube.com/watch?v=gcuR_-rzlDw
+
+-- CLAUDE Code Reference
+https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbXI2TENsQVoyZlZaeWNWVkthN0ZRdVN3YlRJZ3xBQ3Jtc0tseEhhWVpmbXhjeHB1T1lzZXZtN09oa2pBU0p2YW9felVNQlc4dktRWExITTZjaUlGTDhITVIwS3ZIa0RPbllsNnluaHRIQ1htT3V3LWs4NHBDT1Fqc1F0QV9vWV82b0EwZjRzUjhySFVKbXNSOXBRdw&amp;q=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1m182p16V_mZBAOTO-0iq4T4-cj6O-hev&amp;v=QoQBzR1NIqI
   
 
