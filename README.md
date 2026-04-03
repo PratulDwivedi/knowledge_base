@@ -107,4 +107,12 @@ When Microsoft invested billions into OpenAI, they didn’t just buy equity — 
 -- CLAUDE Code Reference
 https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbXI2TENsQVoyZlZaeWNWVkthN0ZRdVN3YlRJZ3xBQ3Jtc0tseEhhWVpmbXhjeHB1T1lzZXZtN09oa2pBU0p2YW9felVNQlc4dktRWExITTZjaUlGTDhITVIwS3ZIa0RPbllsNnluaHRIQ1htT3V3LWs4NHBDT1Fqc1F0QV9vWV82b0EwZjRzUjhySFVKbXNSOXBRdw&amp;q=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1m182p16V_mZBAOTO-0iq4T4-cj6O-hev&amp;v=QoQBzR1NIqI
   
+## Anthropic Academy
 
+- https://anthropic.skilljar.com/claude-code-in-action
+
+## Ollama API
+- https://github.com/ollama/ollama/blob/main/docs/api.md#generate-embeddings
+
+## Flutter WebApp in Vercel
+- https://medium.com/@ekrajghimire/deploy-flutter-web-app-to-vercel-591aa3cc073a
