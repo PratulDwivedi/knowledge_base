@@ -109,7 +109,11 @@ https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUh
   
 ## Anthropic Academy
 
-- https://anthropic.skilljar.com/claude-code-in-action
+  - https://anthropic.skilljar.com/claude-code-in-action
+
+### 15 Claude Skills plugins, dont unzip, use direclty
+
+  - https://drive.google.com/drive/u/0/folders/1PsfRPqza-QL5W52od-GE_ZOQcxTMAN1s
 
 ## Ollama API
 - https://github.com/ollama/ollama/blob/main/docs/api.md#generate-embeddings
