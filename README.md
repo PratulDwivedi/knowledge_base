@@ -110,6 +110,7 @@ https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUh
 ## Anthropic Academy
 
   - https://anthropic.skilljar.com/claude-code-in-action
+  - https://yarmoluk.github.io/custom-skill-developer/chapters/01/
 
 ### 15 Claude Skills plugins, dont unzip, use direclty
 
